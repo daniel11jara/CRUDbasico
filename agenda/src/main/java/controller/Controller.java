@@ -10,6 +10,7 @@ import java.io.IOException;
 /**
  * Servlet implementation class Controller
  */
+@WebServlet(urlPatterns = {"/Controller", "/main"})
 public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
