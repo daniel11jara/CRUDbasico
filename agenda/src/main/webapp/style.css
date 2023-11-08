@@ -21,5 +21,28 @@ h1{
 	font-size:1.2em;
 	font-weight:700;
 	border-radius:5px;
+	border: 0px;
+	cursor: pointer;
+}
+
+.caixa1{
+	width: 320px;
+	padding: 5px;
+	margin-bottom:10;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+
+.caixa2{
+	
+	padding: 5px;
+	margin-bottom:10;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+.src{
+	height: 50px;
 }
 
