@@ -7,12 +7,14 @@
 	 let fone = frmContato.fone.value
 	 
 	 if(nome === ""){
-		 alert('Preencha o corpo nome')
+		 alert('Preencha o campo nome')
 		 frmContato.nome.focus()
 		 return false
 	 }else if(fone === ""){
-		 alert('Preencha o corpo Fone')
+		 alert('Preencha o campo Fone') 
 		 frmContato.nome.focus()
 		 return false
+	 } else {
+		 document.forms["frmContato"].submit()
 	 }
  }
