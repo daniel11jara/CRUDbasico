@@ -57,6 +57,15 @@ public class Controller extends HttpServlet {
 			contato.setNome(request.getParameter("nome"));
 			contato.setNome(request.getParameter("Fone"));
 			contato.setNome(request.getParameter("email"));
+			
+			//chamando o metodo inserirContato passando o objeto contato
+			//o passo 6 do diagrama
+			dao.inserirContato(contato);
+			
+			//Passo 10 do diagrama
+			//redireciona para a egenda.jsp
+			//ao inves de chamar agenda.jsp, vamos requisitar o main
+			response.sendRedirect("main");
 		
 	}
 
